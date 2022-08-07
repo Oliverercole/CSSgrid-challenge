@@ -1,0 +1,123 @@
+body {
+  background-color: #f2ebe3;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 37.8125rem;
+  height: 28.1875rem;
+  background-color: white;
+  border-radius: 12px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.container__img {
+  margin-left: 0;
+  background: url(/images/image-product-desktop.jpg);
+  width: 300px;
+  height: 451px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.container__desc {
+  padding: 2.125rem;
+}
+
+.price {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.price .pr1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 33px;
+  color: #3c8067;
+}
+
+.price .pr2 {
+  margin-left: 22px;
+  margin-top: 10px;
+  font-size: 14px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  font-family: 'Montserrat', sans-serif;
+  color: #6c7289;
+}
+
+.p1 {
+  font-size: 0.625rem;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #6c7289;
+  letter-spacing: 0.3125rem;
+}
+
+h2 {
+  margin-top: 28px;
+  font-size: 2.125rem;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  color: black;
+  line-height: 2.0625rem;
+}
+
+p {
+  margin-top: 1.125rem;
+  margin-bottom: 2.125rem;
+  font-size: 0.875rem;
+  font-family: 'Montserrat',sans-serif;
+  color: #6c7289;
+  text-align: left;
+}
+
+button, .button {
+  margin-top: 26px;
+  width: 168.5px;
+  display: inline-block;
+  padding: 0.875rem 2.1875rem;
+  background: #3c8067;
+  stroke: none;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 14px white;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+button:hover, .button:hover {
+  opacity: 0.75;
+}
+
+.attribution {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */
